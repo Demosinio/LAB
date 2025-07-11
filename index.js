@@ -1,5 +1,5 @@
-let header = document.getElementById("header")
-let main = document.getElementById("main")
+const header = document.getElementById("header")
+const main = document.getElementById("main")
 
 document.getElementById("btn1").addEventListener("click", () => {
   header.innerHTML= `<h1>Z edukacji do biznesu – Twoja transformacja zaczyna się tutaj</h1>`
@@ -45,7 +45,7 @@ document.getElementById("btn2").addEventListener("click", () => {
               <li>Współpraca zespołowa i Agile w projektach technicznych</li>
               <li>Projekt praktyczny: prototyp rozwiązania dla branży</li>
             </ul>
-            <a href="https://www.alx.pl/pl/jezyki-programowania/" id="zapis">Zapisz się</a>
+            <button id="zapis">Zapisz się</button>
   `
 })
 
@@ -65,7 +65,7 @@ document.getElementById("btn3").addEventListener("click", () => {
               <li>Etapy trenowania i testowania modeli</li>
               <li>Projekt zespołowy: rozwiązanie problemu za pomocą AI</li>
             </ul>
-            <a href="https://www.alx.pl/pl/jezyki-programowania/" id="zapis">Zapisz się</a>
+           <button id="zapis">Zapisz się</button>
   `
 })
 
@@ -86,7 +86,7 @@ document.getElementById("btn4").addEventListener("click", () => {
               <li>Debugowanie i optymalizacja frontendu</li>
               <li>Projekt końcowy: interaktywny serwis webowy</li>
             </ul>
-            <a href="https://www.alx.pl/pl/jezyki-programowania/" id="zapis">Zapisz się</a>
+            <button id="zapis">Zapisz się</button>
   `
 })
 
@@ -108,7 +108,7 @@ document.getElementById("btn5").addEventListener("click", () => {
             <li>Cyberbezpieczeństwo w codziennej pracy</li>
             <li>Projekt grupowy – produkt dla realnego klienta</li>
           </ul>
-          <a href="https://www.alx.pl/pl/jezyki-programowania/" id="zapis">Zapisz się</a>
+          <button id="zapis">Zapisz się</button>
   `
 })
 
@@ -129,6 +129,6 @@ document.getElementById("btn6").addEventListener("click", () => {
             <li>Skalowanie i deployment</li>
             <li>Projekt końcowy: pełna aplikacja z API</li>
           </ul>
-          <a href="https://www.alx.pl/pl/jezyki-programowania/" id="zapis">Zapisz się</a>
+          <button id="zapis">Zapisz się</button>
   `
 })
